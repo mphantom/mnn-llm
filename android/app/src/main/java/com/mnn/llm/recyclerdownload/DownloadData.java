@@ -102,7 +102,7 @@ public class DownloadData {
                 return;
             }
         }
-        final String url = "https://huggingface.co/zhaode/llm-mnn/resolve/main/" + mName;
+        final String url = "https://huggingface.co/zhaode/chatglm-mnn/resolve/main/" + mName;
         final long startTime = System.currentTimeMillis();
         OkHttpClient okHttpClient = new OkHttpClient();
 
